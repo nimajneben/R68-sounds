@@ -1,0 +1,68 @@
+BveTs Vehicle Sound 3.01
+
+[Rolling]
+0 = RUN4-howl.wav
+
+[Flange]
+1 = Flange0.wav
+
+[Motor]
+0 = MotorF-final.wav
+1 = MotorG-final.wav
+2 = Howl.wav
+
+[Joint]
+0 = Point.wav
+
+[Brake]
+BcReleaseHigh = Air.wav
+BcRelease = Air.wav
+BcReleaseFull = AirZero.wav
+Emergency = EmrBrake.wav
+
+[Compressor]
+Release = CpEnd.wav
+Loop = CpLoop.wav
+Attack = CpStart.wav
+
+[AirSpring]
+LeftRelease = SpringL.wav
+RightRelease = SpringR.wav
+
+[Horn]
+Primary = Horn3f.wav
+PrimaryRelease = Horn3Release.wav
+Secondary = Feedback.wav
+SecondaryRelease = FeedbackEnd.wav
+
+[Door]
+OpenLeft = DoorOpn9.wav
+OpenRight = DoorOpn9.wav
+CloseLeft = DoorCls9.wav
+CloseRight = DoorCls9.wav
+
+
+[PilotLamp]
+On = Leave3.wav
+Off = UnLeave2.wav
+
+[BrakeHandle]
+Min = null.wav
+Release = BrakeSlow.wav
+ReleaseFast = BrakeFast.wav
+
+[MasterController]
+Max = McLimit2.wav
+Min = McZero3.wav
+Up =  McUp2.wav
+Down = McDown3.wav
+
+[Others]
+Noise = Loop3.wav
+Shoe = Rub3-final.wav
+
+[Breaker]
+Off=Breaker.wav
+
+[Ats]
+101 = cbtc\FanRailer_alerter.wav
